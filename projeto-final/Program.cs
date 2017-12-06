@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using tabuleiro;
 
 namespace projeto_final
 {
@@ -10,6 +7,13 @@ namespace projeto_final
     {
         static void Main(string[] args)
         {
+            Tabuleiro tab = new Tabuleiro(8, 8);
+
+            Tela.imprimirTabuleiro(tab);
+
+         
+
+            Console.ReadLine();
         }
     }
 }
