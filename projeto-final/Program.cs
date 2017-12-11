@@ -42,7 +42,9 @@ namespace projeto_final
                                     }
         }
 
-                Tela.imprimirTabuleiro(partida.tab);
+                
+
+                
                 
 
                 
